@@ -59,9 +59,8 @@ function Header() {
           <nav className="flex flex-grow block lg:hidden">
             <ul className="flex">
               <li>
-                <a href="tel:02083542495" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
+                <a href="tel:02083542495" className="flex flex-row space-x-2 btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
                   <BsFillTelephoneForwardFill/>
-                  <span className={'text-xs'}>CALL US</span>
                 </a>
               </li>
             </ul>

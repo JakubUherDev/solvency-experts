@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import groovyWalkAnimation from "../images/animation/ani1.json";
 import Lottie from "lottie-react";
 
+import EntryDetailsImage from '../images/enter-details-icon.webp';
+
 function HeroHome() {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -26,7 +28,7 @@ function HeroHome() {
 
 
               <div className={'my-8 md:my-0 m-8 animate-bounce md:animate-pulse'}>
-                <img className={'w-1/2 mx-auto  rotate-90 md:rotate-0 '} src={'src/images/enter-details-icon.webp'}/>
+                <img className={'w-1/2 mx-auto  rotate-90 md:rotate-0 '} src={EntryDetailsImage}/>
               </div>
             </div>
           </div>
