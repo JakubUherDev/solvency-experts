@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {FaMapMarkerAlt} from 'react-icons/fa';
 import {BsFillTelephoneFill} from "react-icons/all";
+import HeroImage from '../images/logo1.png';
 
 function Footer() {
   return (
@@ -16,7 +17,7 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" aria-label="SolvencyExperts">
-                <img className={'w-full h-full lg:h-1/2 p-4 md:p-0'} src={'../src/images/logo1.png'} alt={'Solvency Experts Logo'}/>
+                <img className={'w-full h-full lg:h-1/2 p-4 md:p-0'} src={HeroImage} alt={'Solvency Experts Logo'}/>
               </Link>
             </div>
             <div className="text-sm text-white">
